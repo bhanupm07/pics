@@ -3,10 +3,11 @@ body {
 }
 
 .search-bar {
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .search-bar form {
@@ -15,11 +16,16 @@ body {
 }
 
 .search-bar form > input {
-    padding: 5px;
-    font-size: 20px;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  width: 600px;
+  margin: 30px 0 0 0;
+  border: none;
+  border-radius: 5px;
 }
 
 .search-bar form > label {
-    font-size: 25px;
-    font-weight: bolder;
+  font-size: 65px;
+  font-weight: bolder;
 }
